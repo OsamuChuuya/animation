@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+@keyframes abdullo {
+    0%{
+        width: 200px;
+        height: 200px;
+        left: 0;
+        top: 0;
+        background-color: red;
+        border: 1px solid blue;
+    }
+    25%{
+        width: 200px;
+        height: 200px;
+        left: 400px;
+        top: 0;
+        background-color: red;
+        border: 1px solid blue;
+    }
+    50%{
+        width: 200px;
+        height: 200px;
+        top: 400px;
+        left: 400px;
+        background-color: blue;
+        border: 20px dotted greenyellow;
+        border-radius: 50px;
+    }
+    75%{
+        width: 200px;
+        height: 200px;
+        right: 400px;
+        top: 400px;
+        background-color: red;
+        border: 1px solid blue;
+    }
+    100%{
+        width: 200px;
+        height: 200px;
+        right: 400px;
+        
+        top: 0px;
+        background-color: red;
+        border: 1px solid blue;
+    }
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 0;
+    background-color: red;
+    animation-name: abdullo;
+    animation-duration: 2s;
+    animation-iteration-count: 11;
+    animation-direction: alternate;
+margin-top: 60px;
+    margin-left: 500px;
+}
